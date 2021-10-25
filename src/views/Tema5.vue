@@ -10,7 +10,7 @@
     .row.mt-5
       .col-8
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p.italic This, that, these, those are called demonstratives and are used to show the relative distance between the speaker and the noun.
@@ -23,7 +23,7 @@
                 i.fas.fa-angle-right
                 | Those are my shoes. (Plural)
             p.mt-3 Note: The verb changes (singular / plural) depending on the pronoun that you use.
-          .col-12.position-relative.py-4.px-2.hover-bg-naranja.expandable2
+          .col-12.position-relative.py-4.px-2.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p Esto, Eso, Estos, Aquellos se llaman demostrativos y se utilizan para mostrar la distancia relativa entre el hablante y el sustantivo.
@@ -42,7 +42,18 @@
     figure.mt-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+    .row.mt-5
+      .col-12
+        .tarjeta.color-secundario.p-3.mb-5
+          .row.justify-content-around.align-items-center.py-3
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p Si deseas conocer más sobre los demostrativos y su uso correcto en inglés, puedes consultar el siguiente video.  
+                .col-sm-auto
+                  a.boton.color-acento-contenido(href="https://www.youtube.com/watch?v=vNy4xYiG7q8" target="_blank")
+                    span.text-sistema Ver
+                    i.fas.fa-link.text-sistema
 
 </template>
 

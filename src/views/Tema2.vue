@@ -10,11 +10,11 @@
     .row.mt-5
       .col-8
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p They are establishments whose main activity is to offer accommodation to people for a price, in a regular and professional way, with or without other complementary services, through the generic name of hotel, hostel, pension, or similar. 
-          .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-5.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p Son aquellos establecimientos cuya actividad principal es ofrecer alojamiento a las personas por un precio, de forma regular y profesional, con o sin otros servicios complementarios, mediante la denominación genérica de: hotel, hostal, pensión o similar.
@@ -26,17 +26,26 @@
     .row.mt-5
       .col-9
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p Lodging establishments are classified according to meeting the evaluation criteria. The best-known classification is that of stars, but this is not standard since it uses different criteria in each country. In Colombia, for example, these parameters are determined by the technical standard NTSH006.  
-          .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-5.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p Los establecimientos están clasificados según cumplan los criterios de evaluación. La clasificación más conocida es la de estrellas, pero esta no es estándar, ya que usa criterios diferentes en cada país. En Colombia, por ejemplo, esos parámetros los determina la norma técnica NTSH006. 
       .col-3
         figure
           img(src="@/assets/template/tema-2-2.svg", alt="Texto que describa la imagen").w-75.margin-0-auto.floating
+    .row.mt-5
+      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
+        figure.bandera-usa
+          img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
+        p Evaluation criteria to granting the star rating certificate for hotels in modalities 1, 2, 3, 4, and 5.
+      .col-12.position-relative.p-5.hover-bg-naranja 
+        figure.bandera-esp
+          img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
+        p Criterios de evaluación para el otorgamiento del certificado de categorización por estrellas para los hoteles en las modalidades 1, 2, 3, 4 y 5.
     .row.justify-content-center.mt-5(style="height:850px")
       .col-lg-12
         .row
@@ -64,7 +73,7 @@
             .tarjeta-avatar(@mouseover="mostrarIndicador = false").position-relative
               .indicador--click(v-if="mostrarIndicador")
               img(src='@/assets/template/tema-2-5.png' alt='AvatarTop').img2
-              img(src='@/assets/template/tema-2-3.svg' alt='AvatarTop').img1
+              img(src='@/assets/template/tema-2-64.svg' alt='AvatarTop').img1
               .tarjeta.color-naranja3.wf.position-absolute.bg-blanco.pt-1
                 .p-4
                   h3.text-center.mb-1 2 star hotels //
@@ -84,7 +93,7 @@
             .tarjeta-avatar(@mouseover="mostrarIndicador = false").position-relative
               .indicador--click(v-if="mostrarIndicador")
               img(src='@/assets/template/tema-2-6.png' alt='AvatarTop').img2
-              img(src='@/assets/template/tema-2-3.svg' alt='AvatarTop').img1
+              img(src='@/assets/template/tema-2-65.svg' alt='AvatarTop').img1
               .tarjeta.color-naranja3.wf.position-absolute.bg-blanco.pt-1
                 .p-4
                   h3.text-center.mb-1 3 star hotels //
@@ -103,7 +112,7 @@
             .tarjeta-avatar(@mouseover="mostrarIndicador = false").position-relative
               .indicador--click(v-if="mostrarIndicador")
               img(src='@/assets/template/tema-2-7.png' alt='AvatarTop').img2
-              img(src='@/assets/template/tema-2-3.svg' alt='AvatarTop').img1
+              img(src='@/assets/template/tema-2-66.svg' alt='AvatarTop').img1
               .tarjeta.color-naranja3.wf.position-absolute.bg-blanco.pt-1
                 .p-4
                   h3.text-center.mb-1 4 star hotels //
@@ -122,7 +131,7 @@
             .tarjeta-avatar(@mouseover="mostrarIndicador = false").position-relative
               .indicador--click(v-if="mostrarIndicador")
               img(src='@/assets/template/tema-2-8.png' alt='AvatarTop').img2
-              img(src='@/assets/template/tema-2-3.svg' alt='AvatarTop').img1
+              img(src='@/assets/template/tema-2-67.svg' alt='AvatarTop').img1
               .tarjeta.color-naranja3.wf.position-absolute.bg-blanco.pt-1
                 .p-4
                   h3.text-center.mb-1 5 star hotels //
@@ -143,12 +152,12 @@
           img(src="@/assets/template/tema-2-9.svg", alt="Texto que describa la imagen").floating
       .col-8.mt-4
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p At a global level, the categorization most used by the industry is the one determined by the price scales associated with the quality of the establishments. This scale has 6 levels that are determined by the ADR “Average Daily Rate” and is used by hotel chains to classify their products. 
             p.mt-3  There is a seventh category that applies to independent hotels.
-          .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-5.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p A nivel mundial, la categorización más utilizada por la industria es la que se determina por las escalas de precio asociadas a la calidad de los establecimientos. Esta escala tiene 6 niveles que se determinan a partir de la tarifa promedio, y es usada por las cadenas hoteleras para clasificar sus productos. 
@@ -190,11 +199,11 @@
                 td.py-3.pl-4.text-small Independent Hotels
                 td.pl-4.text-small Hoteles Independientes
     .row.exp.mt-5
-      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
         figure.bandera-usa
           img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
         p When a chain is categorized in a specific scale level, that means every hotel in that chain is in that scale level everywhere in the world, in every country and market. For example, the Ritz-Carlton chain is at the Luxury scale level.  That means every Ritz-Carlton hotel in the world will be a Luxury scale hotel.
-      .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+      .col-12.position-relative.p-5.hover-bg-naranja 
         figure.bandera-esp
           img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
         p Cuando una cadena se clasifica en un nivel específico de la escala, eso significa que cada hotel en esa cadena está en ese nivel de la escala, en todas partes del mundo, en cada país y mercado. Por ejemplo, la cadena Ritz-Carlton está en el nivel Lujo.  Eso significa que cada hotel Ritz-Carlton en el mundo será un hotel de escala de lujo.
@@ -329,12 +338,12 @@
     .row.mt-5
       .col-12
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p The class categorization is like the scale.  The names of the categories are the same, but there is no “Independent” class group.  So there are only 6 class categories, instead of the 7 scale groups.
             p.mt-3 Independent hotels are slotted into the scale categories (Luxury through Economy) at similar Average Daily Rate levels. Also, there are several adjectives that can be used to talk about the class of hotels and other types of tourist accommodation. 
-          .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-5.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p La categorización por clases es similar a la de escala.  Los nombres de las categorías son los mismos, pero no hay un grupo de clase “independiente”.  Así que sólo hay 6 categorías por clase, en lugar de los 7 grupos de escala. 
@@ -356,7 +365,7 @@
             tbody
               tr
                 td.py-3.pl-4.text-small Luxury Hotels
-                td.pl-4.text-small Hoteles de Lujo    
+                td.pl-4.text-small Hoteles de nivel Lujo    
               tr.bg-gris
                 td.py-3.pl-4.text-small Upper Upscale Hotels 
                 td.pl-4.text-small Hoteles de nivel Superior exclusivo
@@ -381,11 +390,11 @@
           img(src="@/assets/template/tema-2-41.png", alt="Texto que describa la imagen")
       .col-8
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p At the same time, there are several adjectives to express the class and category of a lodging property. 
-          .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-5.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p Al mismo tiempo, existen varios adjetivos para expresar la clase y categoría de una propiedad de alojamiento
@@ -437,11 +446,11 @@
     figure
       img(src="@/assets/template/tema-2-42.png", alt="Texto que describa la imagen")
     .row.exp.mt-5
-      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
         figure.bandera-usa
           img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
         p There are different types of accommodation establishments, you will see them in the second language.
-      .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+      .col-12.position-relative.p-5.hover-bg-naranja 
         figure.bandera-esp
           img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
         p Hay diferentes tipos de establecimientos de alojamiento, los verá a continuación en la segunda lengua.
@@ -492,11 +501,11 @@
                 td.py-3.pl-4.text-small(colspan='2')
                   .h4 Data of interest //Dato de interés:
                   .row.exp.mt-3
-                    .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+                    .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
                       figure.bandera-usa
                         img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                       p.italic The word ‘motel’ was invented in the United States to describe the category of cheap and basic hotel that is built near the great national highways of the country. It was aimed at drivers. Motel is the composition of motor + hotel.
-                    .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+                    .col-12.position-relative.p-5.hover-bg-naranja 
                       figure.bandera-esp
                         img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                       p La palabra ‘motel’ se inventó en los Estados Unidos para describir la categoría de hotel barato y básico que se construye cerca de las grandes autopistas nacionales del país. Estaba dirigido a los conductores. Motel es la composición de motor + hotel.
@@ -505,12 +514,12 @@
     figure.mt-5
       img(src="@/assets/template/tema-2-49.png", alt="Texto que describa la imagen")
     .row.exp.mt-5
-      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
         figure.bandera-usa
           img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
         p.italic A lodging establishment can offer more than the provision of a room. The client can request complementary services during their stay and the hotel provides them as part of the services.
         p.mt-3.italic  The following are considered complementary services:
-      .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+      .col-12.position-relative.p-5.hover-bg-naranja 
         figure.bandera-esp
           img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
         p Un establecimiento de alojamiento puede ofrecer más que la disposición de una habitación. El cliente puede solicitar servicios complementarios durante su estancia y el hotel los presta como parte de los servicios.
@@ -610,19 +619,23 @@
           .col-8.text-center.bg-amarillo.px-5.mt-5
             .row
               .col-12.py-5
-                .h4.text-white.font-30.italic Additional services
-                .h4.text-azul.font-25 Prestación de servicios adicionales
+                .h4.text-white.font-30.italic Package holiday
+                .h4.text-azul.font-25 Paquete turístico
               a.col-5.col-lg-5.bg-rosado.rounded-50.px-3.px-lg-4.px-xl-5.py-5.mx-2.mx-lg-3.mx-xl-3(@click="modalP = true")
-                .h4.font-25.text-azul.italic Types of Holiday
+                .h4(@mouseover="mostrarIndicador = false").font-25.text-azul.italic.position-relative Types of Holiday
+                  .indicador--click(v-if="mostrarIndicador")
                 .h4.text-amarillo-fuerte.font-20.pt-1 Tipos de vacaciones
               a.col-5.col-lg-5.bg-rosado.rounded-50.px-3.px-lg-4.px-xl-5.py-5.mx-2.mx-lg-3.ml-xl-3(@click="modalH = true")
-                .h4.font-25.text-azul.italic Ancillary services
+                .h4(@mouseover="mostrarIndicador = false").font-25.text-azul.italic.position-relative  Ancillary services
+                  .indicador--click(v-if="mostrarIndicador")
                 .h4.text-amarillo-fuerte.font-20.pt-1 Servicios complementarios
               a.col-5.col-lg-5.bg-rosado.rounded-50.px-3.px-lg-4.px-xl-5.py-5.mx-2.mx-lg-3.ml-xl-3.mt-5.mb-5(@click="modalA1 = true")
-                .h4.font-25.text-azul.italic.pt-4 Accommodation
+                .h4(@mouseover="mostrarIndicador = false").font-25.text-azul.italic.pt-4.position-relative  Accommodation
+                  .indicador--click(v-if="mostrarIndicador")
                 .h4.text-amarillo-fuerte.font-20.pb-4.pt-1 Alojamiento
               a.col-5.col-lg-5.bg-rosado.rounded-50.px-3.px-lg-4.px-xl-5.py-5.mx-2.mx-lg-3.ml-xl-3.mt-5.mb-5(@click="modalV = true")
-                .h4.font-25.text-azul.italic.pt-4 Transportation
+                .h4(@mouseover="mostrarIndicador = false").font-25.text-azul.italic.pt-4.position-relative  Transportation
+                  .indicador--click(v-if="mostrarIndicador")
                 .h4.text-amarillo-fuerte.font-20.pb-4.pt-1 Transporte
             ModalA(:abrir-modal.sync="modalP")
               .row.mt-5
@@ -669,7 +682,7 @@
                       tbody
                         tr.bg-gris
                           td.py-3.pl-4.text-small Visa
-                          td.pl-4.text-small Visado    
+                          td.pl-4.text-small Visa    
                         tr
                           td.py-3.pl-4.text-small All-inclusive
                           td.pl-4.text-small Todo incluido
@@ -678,13 +691,13 @@
                           td.pl-4.text-small Seguro
                         tr
                           td.py-3.pl-4.text-small Foreign exchange
-                          td.pl-4.text-small Moneda extranjera
+                          td.pl-4.text-small Cambio de moneda
                         tr.bg-gris
                           td.py-3.pl-4.text-small Transfer
-                          td.pl-4.text-small Transferencia
+                          td.pl-4.text-small Transferir
                         tr
                           td.py-3.pl-4.text-small Equipment hire
-                          td.pl-4.text-small Alquier de equipo
+                          td.pl-4.text-small Alquiler de equipos
             ModalA(:abrir-modal.sync="modalA1")
               .row.mt-5
                 .col-4.offset-4
@@ -737,21 +750,21 @@
           .col-4.fondo-img-3.mt-5
     separador
     .titulo-segundo.mt-5
-      #t_2_5.h2 2.5  Geographical locations  // Características
+      #t_2_5.h2 2.5  Geographical locations  // Ubicaciones geográficas
     figure.mt-5
       img(src="@/assets/template/tema-2-62.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-7
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p.italic The geographical location is the identification of a specific place on the planet using various tools such as maps, compasses, coordinates, or geolocation systems. 
             p.mt-3.italic In the accommodation service, it is important to know the location of the establishment and the specific places that guests may need to access. Therefore, it is important to keep that in mind and guide them in case of being.
             p.mt-3.italic Colombia is a land of diversity, from Los Andes to the Amazon, it has a place for everyone.
             p.mt-3.italic Colombia can be divided into six geographic regions: the Caribbean coast, the Pacific coast, Los Andes Mountains, Orinoquia, the Amazon rainforest, and the Islands.
-            p.mt-3.italic  Each region offers its own activities, it is important to know the highlights of each of them.
-          .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+            p.mt-3.italic  Each region offers it's own activities, it is important to know the highlights of each of them.
+          .col-12.position-relative.p-4.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p La ubicación geográfica es la identificación de un lugar específico del planeta, mediante el uso de diversas herramientas como mapas, brújulas, coordenadas o sistemas de geolocalización.
@@ -762,6 +775,15 @@
       .col-5.align-left-center
         figure
           img(src="@/assets/template/tema-2-58.svg", alt="Texto que describa la imagen")
+    .row.exp.mt-5
+      .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
+        figure.bandera-usa
+          img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
+        p Hotel guests require key information such as the following.
+      .col-12.position-relative.p-5.hover-bg-naranja 
+        figure.bandera-esp
+          img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
+        p Los huéspedes del hotel requieren información clave como la siguiente.
     .row.mt-5 
       .row.mb-5.text-center
         .col-sm-6.col-lg-2.tarjeta-flip-tema-2.p-1.text-center
@@ -817,7 +839,7 @@
                     figure.bandera-usa
                       img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                     .h4.italic.text-small Entertainment
-                    p.italic.text-small discos / nightclubs / shows / festivals / concerts / funfairs
+                    p.italic.text-small discos / nightclubs / shows / festivals / concerts halls / funfairs
               .tarjeta-flip__contenido.p-3.bg-rojo-claro
                 .row    
                   figure
@@ -886,7 +908,7 @@ export default {
     indicadorTarjetaFlip: true,
     datosSlyder: [
       {
-        titulo: 'Hostel // Hostel',
+        titulo: 'Hostel // Hostal',
         texto:
           'This type of accommodation is featured by providing shared spaces at low cost, where guests can rent a bed, usually a bunk bed in a bedroom, with shared use of the bathroom, kitchen, and social areas. <br> <br> Este tipo de alojamiento se caracteriza por brindar espacios compartidos a bajo costo y donde los huéspedes pueden alquilar una cama, generalmente una litera en un dormitorio, con uso compartido de baño, cocina y áreas sociales. ',
         imagen: require('@/assets/template/tema-2-43.png'),
@@ -895,14 +917,14 @@ export default {
       {
         titulo: 'Aparthotel // Aparta Hotel ',
         texto:
-          'An aparthotel is a type of housing unit (apartments) with full kitchen and furnishing, but with limited services and staff, which operates with a reservation system in the same way as a hotel. It is focused on long stays.<br><br>Un apartotel es un tipo de unidad habitacional (apartamentos) con cocina y amoblamiento completo, pero con servicios y personal limitados, que opera con un sistema de reservas similar a un hotel. Está enfocado en largas estadías.',
+          'An aparthotel is a type of housing unit (apartments) with full kitchen and furnishing, but with limited services and staff, which operates with a reservation system in the same way as a hotel. It is focused on long stays.<br><br>Un aparta hotel es un tipo de unidad habitacional (apartamentos) con cocina y amoblamiento completo, pero con servicios y personal limitados, que opera con un sistema de reservas similar a un hotel. Está enfocado en largas estadías.',
         imagen: require('@/assets/template/tema-2-44.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Lodge // Cabaña',
         texto:
-          'A lodge is a small house or cottage in the vicinity of a park, in a natural environment. Originally, it is a place of rest, a refuge, for hunters, fishermen, or sportsmen. Now, applied to the hotel industry, it should be a small place, built permanently (with walls), local materials, minimal environmental impact, committed to the local culture and offering the guest everything they need for their rest while performing one of these practices. Here it is known as Rural Accommodation.<br><br>Un lodge es una pequeña casa o cabaña en las cercanías de un parque, en un entorno natural. Originalmente, es un lugar de descanso, un refugio, para cazadores, pescadores, deportistas. Ahora, aplicado a la hotelería, debe ser un lugar pequeño, construido de manera permanente (con muros), materiales locales, mínimo impacto ambiental, comprometido con la cultura local y que ofrece al huésped todo lo que necesita para su descanso mientras realiza una de estas prácticas. Aquí es conocido como Alojamiento Rural. ',
+          'A lodge is a small house or cottage in the vicinity of a park, in a natural environment. Originally, it is a place of rest, a refuge, for hunters, fishermen, or sportsmen. Now, applied to the hotel industry, it should be a small place, built permanently (with walls), local materials, minimal environmental impact, committed to the local culture, and offering the guest everything they need for their rest while performing one of these practices. Here it is known as Rural Accommodation.<br><br>Un lodge es una pequeña casa o cabaña en las cercanías de un parque, en un entorno natural. Originalmente, es un lugar de descanso, un refugio, para cazadores, pescadores, deportistas. Ahora, aplicado a la hotelería, debe ser un lugar pequeño, construido de manera permanente (con muros), materiales locales, mínimo impacto ambiental, comprometido con la cultura local y que ofrece al huésped todo lo que necesita para su descanso mientras realiza una de estas prácticas. Aquí es conocido como Alojamiento Rural. ',
         imagen: require('@/assets/template/tema-2-45.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

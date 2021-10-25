@@ -13,13 +13,13 @@
     .row.mt-5
       .col-12.col-lg-9.align-self-center
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p During this module, you will develop the basic oral and written communication skills that allow you to communicate with non-Spanish-speaking visitors. 
             p.mt-3 In this process, you will understand the general meaning of written texts by learning to select the necessary information and deducing the meaning of words from the context; understanding oral communication and written texts, which permits you to deduce meanings and express yourself with better pronunciation and intonation. 
             p.mt-3 Deepen the knowledge of grammar and acquire new technical vocabulary, allowing the consolidation of structures and vocabulary acquired previously.
-          .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-5.hover-bg-naranja
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p Durante este módulo, desarrollarás las habilidades básicas de comunicación oral y escrita, que te permitirán comunicarte con visitantes que no hablan español.  

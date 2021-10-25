@@ -9,14 +9,15 @@
     .row.mt-5
       .col-9
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p.italic Within the configuration of their facilities, hotels have different areas, with furniture and appropriate amenities according to their use. See some examples.
-          .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-4.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-            p Los establecimientos están clasificados según cumplan los criterios de evaluación. La clasificación más conocida es la de estrellas, pero esta no es estándar, ya que usa criterios diferentes en cada país. En Colombia, por ejemplo, esos parámetros los determina la norma técnica NTSH006. 
+            p Dentro de la configuración de sus instalaciones, los hoteles cuentan con diferentes áreas, con mobiliario y comodidades acordes con su uso. Observe algunos ejemplos.
+
       .col-3
         figure
           img(src="@/assets/template/tema-3-1.svg", alt="Texto que describa la imagen").floating.w-75.margin-0-auto
@@ -26,11 +27,11 @@
         .row.mt-5
           .col-5
             .row.exp
-              .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+              .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
                 figure.bandera-usa
                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                 p.italic The most important differentiation of a hotel structure is established by the areas for public use or intended for guests, and the areas for private use and in which services are prepared. Here is a list of some of them.
-              .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+              .col-12.position-relative.p-4.hover-bg-naranja 
                 figure.bandera-esp
                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                 p La diferenciación más importante de una estructura hotelera se establece mediante las áreas de uso público, o destinadas a los huéspedes, y las áreas de uso privado, en las que se preparan los servicios. Esta es una lista de algunas de ellas
@@ -490,7 +491,7 @@
                 .col-12.position-relative.p-4
                   figure.bandera-esp(style="width:7%")
                     img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                  p Pet friendly
+                  p Aceptan mascotas
       .col-lg-3
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.py-5
@@ -501,11 +502,11 @@
                 .col-12.bg-rosado-claro.position-relative.p-3.italic
                   figure.bandera-usa(style="width:8%")
                     img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-                  p.italic Bellboy     
+                  p.italic 24-hour Room service      
                 .col-12.position-relative.p-4
                   figure.bandera-esp(style="width:7%")
                     img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                  p Botones 
+                  p Servicio a la habitación 24 horas 
       .col-lg-3
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.py-5
@@ -516,11 +517,13 @@
                 .col-12.bg-rosado-claro.position-relative.p-3.italic
                   figure.bandera-usa(style="width:8%")
                     img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-                  p.italic Wheelchair access     
+                  p.italic Shuttle service
+
+     
                 .col-12.position-relative.p-4
                   figure.bandera-esp(style="width:7%")
                     img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                  p Acceso en silla de ruedas 
+                  p Servicio de transporte 
       .col-lg-3
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.rounded-15.box-shadow.py-5
@@ -531,11 +534,13 @@
                 .col-12.bg-rosado-claro.position-relative.p-3.italic
                   figure.bandera-usa(style="width:8%")
                     img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-                  p.italic Credit cards accepted      
+                  p.italic Online reservation
+
+     
                 .col-12.position-relative.p-4
                   figure.bandera-esp(style="width:7%")
                     img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                  p Tarjetas de crédito aceptadas
+                  p Reserva en línea
 
     .row.justify-content-center(data-aos="fade-down").mt-4
       .col-lg-3
@@ -972,11 +977,11 @@
               .col-10.bg-rosado-claro.position-relative.p-1.italic.offset-1
                 figure.bandera-usa(style="width:8%")
                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-                p.italic Alarm clock radior      
+                p.italic Alarm clock radio      
               .col-10.position-relative.p-2.offset-1
                 figure.bandera-esp(style="width:7%")
                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                p Radio reloj despertado
+                p Radio reloj despertador
       .tarjeta(x="86%" y="72.5%")
         .row.borde-morado-3.rounded-15
           .col-3.px-0.rounded-15
@@ -987,11 +992,12 @@
               .col-10.bg-rosado-claro.position-relative.p-1.italic.offset-1
                 figure.bandera-usa(style="width:8%")
                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-                p.italic Art      
+                p.italic Charming      
               .col-10.position-relative.p-2.offset-1
                 figure.bandera-esp(style="width:7%")
                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                p 
+                p Estación de carga 
+
       .tarjeta(x="32%" y="78%")
         .row.borde-morado-3.rounded-15
           .col-3.px-0.rounded-15
@@ -1107,7 +1113,7 @@
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.bg-azul-claro.align-items-center.rounded-15.box-shadow.px-0
             figure
-              img(src="@/assets/template/tema-3-87.png", alt="Texto que describa la imagen")
+              img(src="@/assets/template/tema-3-90.png", alt="Texto que describa la imagen")
             .text.p-lg-3.p-4
               .row.text-center.px-3.pt-5
                 .col-12.bg-rosado-claro.position-relative.p-3.italic.mt-3

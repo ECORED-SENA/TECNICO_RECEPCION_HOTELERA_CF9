@@ -15,15 +15,15 @@
           .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-            p It should be noticed that most frequent sentences are in the present simple since this is an English verbal tense used to express habits, routines, and events. You will learn its use in sentences and conjugations. 
-          .col-12.position-relative.p-5.hover-bg-naranja.expandable2
+            p It should be noticed that the most frequent sentences are in the present simple since this is an English verbal tense used to express habits, routines, and events. You will learn  it's use in sentences and conjugations. 
+          .col-12.position-relative.p-5.hover-bg-naranja
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p Cabe señalar que las oraciones más frecuentes  están en presente simple, ya que es un tiempo verbal en inglés que se usa para expresar hábitos, rutinas y eventos. Aprenderá su uso en oraciones y conjugaciones.
     .row.mt-4
       .col-10.col-lg-8.offset-1.offset-lg-2.p-5.bg-azul.rounded-top-20
         .h4.text-white.font-25.italic Simple Present // Presente simple
-        p.mt-3.text-white The simple present is an English verbal tense used to express habits, routines, and events. You will learn its use in sentences and conjugations. 
+        p.mt-3.text-white The simple present is an English verbal tense used to express habits, routines, and events. You will learn  it's use in sentences and conjugations. 
         p.mt-3.text-amarillo El presente simple es un tiempo verbal del inglés que se usa para expresar hábitos, rutinas y eventos. Aprenderá su uso en oraciones y conjugaciones.
     .row.mt-3
       .col-8.col-lg-6.offset-2.offset-lg-3.pt-4.px-5.pb-3.bg-amarillo.rounded-20.text-center
@@ -51,7 +51,8 @@
             p.text-azul.font-12.font-weight-bold Complement
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Complemento
         .row
-          a.col-3.rounded-20.bg-azul.py-3(style="top:90%; left:38%").position-absolute(@click="modalP = true")
+          a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-azul.py-3(style="top:90%; left:38%").position-absolute(@click="modalP = true")
+            .indicador--click(v-if="mostrarIndicador")
             p.text-white.font-12.font-weight-bold Example
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Ejemplo
         ModalA(:abrir-modal.sync="modalP")
@@ -126,7 +127,8 @@
             p.text-azul.font-12.font-weight-bold Complement
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Complemento
         .row
-          a.col-3.rounded-20.bg-amarillo.py-3(style="top:90%; left:43%").position-absolute.w-123-px(@click="modalH = true")
+          a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-amarillo.py-3(style="top:90%; left:43%").position-absolute.w-123-px(@click="modalH = true")
+            .indicador--click(v-if="mostrarIndicador")
             p.text-white.font-12.font-weight-bold Example
             p.text-azul.font-12.mt-1.font-weight-bold Ejemplo
         ModalA(:abrir-modal.sync="modalH")
@@ -198,7 +200,8 @@
         p.mt-3.text-azul.font-weight-bold For the third person, an “s” must be added, considering the following observations:   
         p.mt-1.text-white.font-weight-bold.pb-4 Para la tercera persona, se debe adicionar una “s”, teniendo en cuenta las siguientes observaciones: 
         .row
-          a.col-3.rounded-20.bg-blanco.py-3(style="top:90%; left:43%").position-absolute.w-123-px.box-shadow(@click="modalA1 = true")
+          a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-blanco.py-3(style="top:90%; left:43%").position-absolute.w-123-px.box-shadow(@click="modalA1 = true")
+            .indicador--click(v-if="mostrarIndicador")
             p.font-12.font-weight-bold Example
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Ejemplo
         ModalA(:abrir-modal.sync="modalA1")
@@ -224,7 +227,7 @@
                                 figure.bandera-usa(style='width: 10%')
                                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                                 p Regular Verbs 
-                              .col-12.position-relative.p-3.hover-bg-naranja.expandable2
+                              .col-12.position-relative.p-3.hover-bg-naranja
                                 figure.bandera-esp(style='width: 9%')
                                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                                 p Verbos regulares
@@ -236,7 +239,7 @@
                                 figure.bandera-usa(style='width: 10%')
                                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                                 p Verbs ending in “ss”, “x”, “ch”, “sh”, “o”  
-                              .col-12.position-relative.p-3.hover-bg-naranja.expandable2
+                              .col-12.position-relative.p-3.hover-bg-naranja
                                 figure.bandera-esp(style='width: 9%')
                                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                                 p Verbos que terminan en “ss”,”x”, “ch”, “sh”, “o”
@@ -248,7 +251,7 @@
                                 figure.bandera-usa(style='width: 10%')
                                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                                 p Verbs ending in “y” (but when there is a vowel before)  
-                              .col-12.position-relative.p-3.hover-bg-naranja.expandable2
+                              .col-12.position-relative.p-3.hover-bg-naranja 
                                 figure.bandera-esp(style='width: 9%')
                                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                                 p Verbs ending in “y” (but when there is a vowel before)
@@ -260,7 +263,7 @@
                                 figure.bandera-usa(style='width: 10%')
                                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                                 p Verbs ending in “y” when there is a vowel before 
-                              .col-12.position-relative.p-3.hover-bg-naranja.expandable2
+                              .col-12.position-relative.p-3.hover-bg-naranja 
                                 figure.bandera-esp(style='width: 9%')
                                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                                 p Verbos que terminan en “y” cuando hay una vocal antes de la “y”
@@ -272,7 +275,7 @@
                                 figure.bandera-usa(style='width: 10%')
                                   img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                                 p Irregular verbs, like “have”  
-                              .col-12.position-relative.p-3.hover-bg-naranja.expandable2
+                              .col-12.position-relative.p-3.hover-bg-naranja 
                                 figure.bandera-esp(style='width: 9%')
                                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                                 p Verbos irregulares “have”
@@ -294,7 +297,7 @@
                     td Singular 3rd person
                     td Helps 
                     td Washes 
-                    td Carryes 
+                    td Carries 
                     td Pays 
                     td Has
                   tr
@@ -338,7 +341,7 @@
                     | Practice makes perfect - Train reading the presentation 
               
               
-              .col-12.position-relative.p-3.hover-bg-naranja.expandable2
+              .col-12.position-relative.p-3.hover-bg-naranja 
                 figure.bandera-esp
                   img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                 p.text-white Para hacer una buena presentación, es necesario empezar por «construirla» bien. Antes de empezar, es necesario seleccionar el tema que va a tratar. Cuando la esté preparando recuerde:  
@@ -376,7 +379,7 @@
                 p.mt-4 Remember to provide information in a concise way, so that your audience will remember it.
                 p.mt-4 The present simple is used to talk about things that happen regularly. Unlike Spanish, the present simple is not used to talk about something that is happening at the moment we speak.
                 p.mt-4.borde-bot-naranja-peq.pb-4 The present simple is often used with adverbs of time
-                .row.mt-5.expandable2 
+                .row.mt-5  
                   p Recuerde brindar información de una forma concisa, para que su audiencia la recuerde.
                   p.mt-4 El presente simple se usa para hablar de cosas que suceden con regularidad. A diferencia del español, el presente simple (en inglés) no se usa para hablar de algo que está sucediendo en el momento en que se habla. 
                   p.mt-4 El presente simple se usa a menudo con adverbios de tiempo. 
@@ -386,7 +389,8 @@
           .col-5.offset-1.mt-4.bg-blanco.rounded-20.mb-4
             .row           
               .col-lg-12.px-0.hover-bg-naranja
-                .nav-holder.align-items-center(data-aos="flip-up").rounded-15.pb-5.m-0
+                .nav-holder(@mouseover="mostrarIndicador = false").align-items-center(data-aos="flip-up").rounded-15.pb-5.m-0
+                  .indicador--click(v-if="mostrarIndicador")
                   .row
                     .col-12.px-4
                       .row.mt-3.text-center.px-3
@@ -407,11 +411,12 @@
                       .col-12.position-relative.p-3.hover-bg-naranja.mb-4
                         figure.bandera-esp(style='width: 4%')
                           img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                        .h4.font-1em.font-weight-normal.pb-5 You walk straight for three blocks, then you turn right. 
+                        .h4.font-1em.font-weight-normal.pb-5 Camina recto durante tres cuadras, luego gira a la derecha. 
           .col-5.ml-3.mt-4.bg-blanco.rounded-20.mb-4.bg-hover-rosado-claro
             .row           
               .col-lg-12.px-0
-                .nav-holder.align-items-center(data-aos="flip-up").rounded-15.pb-5.m-0
+                .nav-holder(@mouseover="mostrarIndicador = false").align-items-center(data-aos="flip-up").rounded-15.pb-5.m-0
+                  .indicador--click(v-if="mostrarIndicador")
                   .row
                     .col-12.px-4
                       .row.mt-3.text-center.px-3

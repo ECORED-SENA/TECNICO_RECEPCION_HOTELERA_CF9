@@ -5,18 +5,18 @@
     .titulo-principal
       .titulo-principal__numero
         span 4
-      h1 Estructura organizacional
+      h1 Organizational structure // Estructura organizacional
     figure.mt-4
       img(src="@/assets/template/tema-4-1.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-12
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p.italic The graphic representation of the organizational structure of a company is known as an organization chart. There is no organization chart that indicates the distribution of the departments, and that is valid for all hotels since this depends on the capacity and category of the hotel, the physical characteristics of the building, the type of organization, and the service it wishes to provide. Organization charts for specific areas are also presented.
             p.italic.mt-3 Graphically, the organization charts maintain the following form:
-          .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-4.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p La representación gráfica de la estructura organizacional de una empresa se conoce como organigrama. No existe ningún organigrama que indique la distribución de los departamentos, y esto es válido para todos los hoteles, ya que esto depende de la capacidad y la categoría del hotel, las características físicas de la edificación, el tipo de organización y el servicio que desea proporcionar. También se presentan organigramas para áreas específicas.
@@ -37,16 +37,20 @@
     .row.mt-5
       .col-10
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-            p.italic The graphic representation of the organizational structure of a company is known as an organization chart. There is no organization chart that indicates the distribution of the departments, and that is valid for all hotels since this depends on the capacity and category of the hotel, the physical characteristics of the building, the type of organization, and the service it wishes to provide. Organization charts for specific areas are also presented.
-            p.italic.mt-3 Graphically, the organization charts maintain the following form:
-          .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+            p.italic In the hotel industry, the jobs and processes are subject to regulation and standards which are supported by function manuals. 
+            p.italic.mt-3 These are guides and orientations for the staff to develop the routines or daily tasks of the hotel operation, so they will be able to make the most correct decisions supported by the directives of their superiors, clearly establishing the responsibility and obligations of each one of the positions. Review some of them.
+
+            
+          .col-12.position-relative.p-4.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-            p La representación gráfica de la estructura organizacional de una empresa se conoce como organigrama. No existe ningún organigrama que indique la distribución de los departamentos, y esto es válido para todos los hoteles, ya que esto depende de la capacidad y la categoría del hotel, las características físicas de la edificación, el tipo de organización y el servicio que desea proporcionar. También se presentan organigramas para áreas específicas.
-            p.mt-3 
+            p En la industria hotelera, los trabajos y procesos están sujetos a regulaciones y estándares que están respaldados por manuales de funciones. 
+            p.mt-3 Son guías y orientaciones para que el personal desarrolle las rutinas o tareas diarias de la operación del hotel. De esta manera, podrán tomar las decisiones más acertadas apoyados en las directivas de sus superiores, estableciendo con claridad la responsabilidad y obligaciones de cada uno de los cargos. Observe algunas de ellas.
+
+            
       .col-2.align-self-center
         figure
           img(src="@/assets/template/tema-4-3.svg", alt="Texto que describa la imagen").floating
@@ -56,16 +60,14 @@
     .row.mt-4
       .col-7
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
-            p.italic The graphic representation of the organizational structure of a company is known as an organization chart. There is no organization chart that indicates the distribution of the departments, and that is valid for all hotels since this depends on the capacity and category of the hotel, the physical characteristics of the building, the type of organization, and the service it wishes to provide. Organization charts for specific areas are also presented.
-            p.italic.mt-3 Graphically, the organization charts maintain the following form:
-          .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+            p.italic The leadership of the general manager is the most important way he or she brings to the overall scheme. The general manager is the person who orchestrates the department directors in their efforts to meet the financial objectives of the organization through its employees. The general manager is required to use the full range of management skills in planning, decision-making, organization, staffing, control, direction, and communication, to develop an efficient operation and competent staff. 
+          .col-12.position-relative.p-4.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-            p La representación gráfica de la estructura organizacional de una empresa se conoce como organigrama. No existe ningún organigrama que indique la distribución de los departamentos, y esto es válido para todos los hoteles, ya que esto depende de la capacidad y la categoría del hotel, las características físicas de la edificación, el tipo de organización y el servicio que desea proporcionar. También se presentan organigramas para áreas específicas.
-            p.mt-3 
+            p El liderazgo del gerente general es la característica más importante que él o ella aportan al esquema general. El gerente general es quien orquesta los directores de departamento en sus esfuerzos por cumplir con los objetivos financieros de la organización a través de sus empleados. Se requiere que el gerente general utilice toda la gama de habilidades gerenciales de planificación, toma de decisiones, organización, dotación de personal, control, dirección y comunicación, para desarrollar una operación eficiente y un personal competente. 
       .col-5.align-self-center
         figure
           img(src="@/assets/template/tema-4-4.png", alt="Texto que describa la imagen")
@@ -151,7 +153,7 @@
                     figure.bandera-usa
                       img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                     p.text-small Su misión principal es realizar diariamente la revisión y el registro de los movimientos contables del hotel. Organizan los documentos financieros como las facturas y las cuentas de los establecimientos; llevan las cuentas por pagar y por cobrar; completan los informes financieros de forma regular y proporcionan información al equipo financiero. También ayudan con los presupuestos. 
-        
+    .h3.mt-5 Maintenance Department  // Departamento de mantenimiento   
     .row(data-aos="fade-down")
       .col-lg-6.nav-holder2.px-0.mx-2(style="width:48%")
         
@@ -160,11 +162,11 @@
           p.text-center.mb-3.h4 
             strong.text-white Maintenance Manager // Gerente  de mantenimiento    
           .row.exp
-            .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-morado.expandable.mt-5
+            .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-morado .mt-5
               figure.bandera-usa
                 img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
               p.italic.text-small  The maintenance manager is the one who oversees the general maintenance team and contractors to provide behind-the-scenes support to hotel guests and employees. With today’s emphasis on preventive maintenance and energy savings, the maintenance manager must develop a plan that will keep the property in excellent condition within budget objectives. 
-            .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+            .col-12.position-relative.p-4.hover-bg-naranja 
               figure.bandera-esp
                 img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
               p.text-small El gerente de mantenimiento es quien supervisa al equipo de mantenimiento general y los contratistas, para proporcionar el soporte detrás de escena a los huéspedes y empleados del hotel. Con el énfasis de hoy en mantenimiento preventivo y ahorro de energía, el gerente de mantenimiento debe desarrollar un plan que mantendrá la propiedad en excelente estado dentro de los objetivos presupuestarios. 
@@ -175,22 +177,28 @@
           p.text-center.mb-3.h4 
             strong.text-white Maintenance Assistant // Asistente de Mantenimiento 
           .row.exp
-            .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-morado.expandable.mt-5
+            .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-morado .mt-5
               figure.bandera-usa
                 img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
               p.italic.text-small The Maintenance Assistant is the one who helps with the administrative labor of the department. He/She is usually the direct liaison with the contractors and is the one who generates the maintenance orders and helps with the internal processes.  
-            .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+            .col-12.position-relative.p-4.hover-bg-naranja 
               figure.bandera-esp
                 img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
               p.text-small El Asistente de Mantenimiento es quien ayuda con la labor administrativa del departamento. Suele ser el enlace directo con los contratistas y es quien genera las órdenes de mantenimiento y ayuda con los procesos internos.
     .row.mt-5
+      .col-12
+        figure
+          img(src="@/assets/template/tema-4-2.png", alt="Texto que describa la imagen")
+    .titulo-segundo.mt-5
+      #t_4_1.h2 4.2 Jobs and professions in the tourism sector // Empleos y profesiones en el sector turístico
+    .row.mt-5
       .col-6
         .row.exp
-          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja.expandable
+          .col-12.bg-naranja.position-relative.p-5.italic.borde-bot-naranja 
             figure.bandera-usa
               img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
             p.italic There are many jobs and professions related to the tourism sector. Like all industries, the hotel industry is always innovating and developing new concepts and services. This causes new jobs to be created every day or existing ones to evolve, such as: 
-          .col-12.position-relative.p-4.hover-bg-naranja.expandable2
+          .col-12.position-relative.p-4.hover-bg-naranja 
             figure.bandera-esp
               img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
             p Hay muchos trabajos y profesiones relacionadas con el sector turístico. Como todas las industrias, la hotelería siempre está innovando y desarrollando nuevos conceptos y servicios, lo que causa que cada día se creen nuevos puestos de trabajo o evolucionen los ya existentes.  
@@ -206,11 +214,11 @@
                 th
                   figure.bandera-usa(style="width=6%")
                     img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos") 
-                  .h4.text-white Scale                  
+                  .h4.text-white Job                  
                 th
                   figure.bandera-esp(style="width=6%")
                     img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                  .h4.text-white Escala                  
+                  .h4.text-white Cargo                  
             tbody
               tr.bg-gris
                 td.py-3.pl-4.text-small Travel Agent 
@@ -273,7 +281,7 @@ export default {
       {
         titulo: 'Housekeeper  // Ama de llaves',
         texto:
-          'The executive housekeeper is responsible for the maintenance of the rooms and public areas of the property. This person coordinates the work of the team with the aim of keeping the property spotless. <br> <br> El ama de llaves ejecutiva es responsable del mantenimiento de las habitaciones y las áreas públicas de la propiedad. Esta persona coordina el trabajo del equipo con el objetivo de mantener la propiedad impecable',
+          'The executive housekeeper is responsible for the maintenance of the rooms and public areas of the property. This person coordinates the work of the team with the aim of keeping the property spotless. <br> <br> El ama de llaves ejecutiva es responsable del mantenimiento de las habitaciones y las áreas públicas de la propiedad. Esta persona coordina el trabajo del equipo con el objetivo de mantener la propiedad impecable.',
         imagen: require('@/assets/template/tema-4-9.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
@@ -352,7 +360,7 @@ export default {
       {
         titulo: 'Host  // Anfitrión',
         texto:
-          'The host is responsible for welcoming customers, placing them at their table and offering the menu introducing the waiter who will serve them. This person does reservation control and the best use of the tables. Sometimes he or she also has the custody of coats and other objects left by the client while enjoying the service.  <br> <br> El anfitrión se encarga de dar la bienvenida a los clientes, ubicarlos en su mesa y presentarles la carta, a la vez que presenta al mesero que les atenderá. Es responsable por el control de las reservas y el mayor aprovechamiento de las mesas. En ocasiones, se encarga también de la custodia de abrigos y otros objetos dejados por el cliente mientras disfruta del servicio',
+          'The host is responsible for welcoming customers, placing them at their table and offering the menu introducing the waiter who will serve them. This person does reservation control and the best use of the tables. Sometimes he or she also has the custody of coats and other objects left by the client while enjoying the service.  <br> <br> El anfitrión se encarga de dar la bienvenida a los clientes, ubicarlos en su mesa y presentarles la carta, a la vez que presenta al mesero que les atenderá. Es responsable por el control de las reservas y el mayor aprovechamiento de las mesas. En ocasiones, se encarga también de la custodia de abrigos y otros objetos dejados por el cliente mientras disfruta del servicio.',
         imagen: require('@/assets/template/tema-4-20.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
