@@ -824,7 +824,7 @@
                 .col-12.position-relative.p-4
                   figure.bandera-esp(style="width:7%")
                     img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
-                  p.text-white Pecheras
+                  p.text-white Percha
       .col-lg-3
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.bg-azul-claro.align-items-center.rounded-15.box-shadow.px-0

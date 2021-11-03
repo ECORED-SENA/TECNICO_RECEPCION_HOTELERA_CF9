@@ -36,20 +36,20 @@
         .h4.text-amarillo-fuerte Oraciones afirmativas 
         p.mt-3.font-weight-bold.text-azul The structure is:    
         p.font-weight-bold.text-amarillo-fuerte La estructura es:
-        .row.mt-3.text-center.px-3.pb-3
+        .row.mt-3.text-center.px-1.pb-3
           .col-3.rounded-20.py-3.px-3.bg-blanco.ml-3.box-shadow
             p.text-azul.font-12.font-weight-bold Subject
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Sujeto
           .col-1.align-self-center
             .h4.font-30.text-azul +
-          .col-3.rounded-20.py-3.px-3.bg-blanco.box-shadow
+          .col-2.rounded-20.py-3.px-3.bg-blanco.box-shadow
             p.text-azul.font-12.font-weight-bold Verb
             p.text-amarillo-fuerte.mt-1.font-12.font-weight-bold Verbo
           .col-1.align-self-center
             .h4.font-30.text-azul +
-          .col-3.rounded-20.py-3.px-3.bg-blanco.box-shadow
-            p.text-azul.font-12.font-weight-bold Complement
-            p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Complemento
+          .col-4.rounded-20.py-3.px-3.bg-blanco.box-shadow
+            p.text-azul.font-10.font-weight-bold Complement
+            p.text-amarillo-fuerte.font-10.mt-1.font-weight-bold Complemento
         .row
           a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-azul.py-3(style="top:90%; left:38%").position-absolute(@click="modalP = true")
             .indicador--click(v-if="mostrarIndicador")
@@ -103,29 +103,29 @@
         p.mt-3.font-weight-bold.text-white The structure is:    
         p.font-weight-bold.text-amarillo-fuerte La estructura es:
         .row.mt-3.text-center.px-1
-          .col-3.rounded-20.py-3.px-3.bg-blanco.ml-3.w-123-px
+          .col-3.rounded-20.py-3.px-0.bg-blanco.ml-3.w-100-px
             p.text-azul.font-12.font-weight-bold Subject
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Sujeto
           .col-1.align-self-center.w-37-px
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-3.rounded-20.py-3.px-3.bg-blanco.w-123-px
+          .col-3.rounded-20.py-3.px-0.bg-blanco.w-123-px
             p.text-azul.font-12.font-weight-bold Auxiliary verb
             p.text-amarillo-fuerte.mt-1.font-12.font-weight-bold Verbo auxiliar
           .col-1.align-self-center.w-37-px
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-3.rounded-20.py-3.px-3.bg-blanco.w-123-px
+          .col-3.rounded-20.py-3.px-0.bg-blanco.w-123-px
             p.text-azul.font-12.font-weight-bold Negation
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Forma negativa
           .col-1.align-self-center.w-37-px
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-3.rounded-20.py-3.px-3.bg-blanco.w-123-px
+          .col-2.rounded-20.py-3.px-1.bg-blanco.w-100-px
             p.text-azul.font-12.font-weight-bold Verb
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Verbo
           .col-1.align-self-center.w-37-px
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-3.rounded-20.py-3.px-3.bg-blanco.w-123-px
-            p.text-azul.font-12.font-weight-bold Complement
-            p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Complemento
+          .col-4.rounded-20.py-3.px-0.bg-blanco.w-100-px
+            p.text-azul.font-10.font-weight-bold Complement
+            p.text-amarillo-fuerte.font-10.mt-1.font-weight-bold Complemento
         .row
           a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-amarillo.py-3(style="top:90%; left:43%").position-absolute.w-123-px(@click="modalH = true")
             .indicador--click(v-if="mostrarIndicador")
