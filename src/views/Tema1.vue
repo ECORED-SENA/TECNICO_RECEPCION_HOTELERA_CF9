@@ -31,33 +31,33 @@
         p.mt-3.text-azul.font-weight-bold See the main conditions of use of this verb tense.  
         p.mt-1.text-white.font-weight-bold Observa las principales condiciones de uso de este tiempo verbal.
     .row.mt-3
-      .col-4.rounded-20.bg-rosado.text-center.py-4.position-relative
+      .col-md-4.col-12.rounded-20.bg-rosado.text-center.py-4.position-relative.mb-md-0.mb-5
         .h4.font-30.text-azul Affirmative #[strong.font-25 statements]
         .h4.text-amarillo-fuerte Oraciones afirmativas 
         p.mt-3.font-weight-bold.text-azul The structure is:    
         p.font-weight-bold.text-amarillo-fuerte La estructura es:
-        .row.mt-3.text-center.px-1.pb-3
-          .col-3.rounded-20.py-3.px-3.bg-blanco.ml-3.box-shadow
+        .row.justify-content-center.mt-3.text-center.px-1.pb-3
+          .col-3.col-md-3.rounded-20.py-3.px-3.px-md-2.bg-blanco.ml-3.box-shadow
             p.text-azul.font-12.font-weight-bold Subject
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Sujeto
-          .col-1.align-self-center
+          .col-1.align-self-center.p-md-0
             .h4.font-30.text-azul +
-          .col-2.rounded-20.py-3.px-3.bg-blanco.box-shadow
+          .col-2.col-md-3.rounded-20.py-3.px-3.px-md-2.bg-blanco.box-shadow
             p.text-azul.font-12.font-weight-bold Verb
             p.text-amarillo-fuerte.mt-1.font-12.font-weight-bold Verbo
-          .col-1.align-self-center
+          .col-1.align-self-center.p-md-0
             .h4.font-30.text-azul +
-          .col-4.rounded-20.py-3.px-3.bg-blanco.box-shadow
+          .col-4.col-md-3.rounded-20.py-3.px-3.px-md-2.bg-blanco.box-shadow
             p.text-azul.font-10.font-weight-bold Complement
             p.text-amarillo-fuerte.font-10.mt-1.font-weight-bold Complemento
-        .row
+        .row.justify-content-center
           a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-azul.py-3(style="top:90%; left:38%").position-absolute(@click="modalP = true")
             .indicador--click(v-if="mostrarIndicador")
             p.text-white.font-12.font-weight-bold Example
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Ejemplo
         ModalA(:abrir-modal.sync="modalP")
           .row
-            .col-8.offset-2.text-center
+            .col-9.offset-2.text-center
               .h4 Example: "Help the customer"
               p.mt-2 Ejemplo: "Ayuda al cliente"
               .tabla-a.color-acento-contenido.mt-3 
@@ -97,37 +97,37 @@
                     tr
                       td They
 
-      .col-8.rounded-20.bg-azul.text-center.py-4.w-64.ml-4.position-relative
+      .col-md-7.col-11.rounded-20.bg-azul.text-center.py-4.ml-4.position-relative
         .h4.font-30.text-white Affirmative #[strong.font-25 statements]
         .h4.text-amarillo-fuerte Oraciones afirmativas 
         p.mt-3.font-weight-bold.text-white The structure is:    
         p.font-weight-bold.text-amarillo-fuerte La estructura es:
-        .row.mt-3.text-center.px-1
-          .col-3.rounded-20.py-3.px-0.bg-blanco.ml-3.w-100-px
+        .row.justify-content-center.mt-3.text-center.px-1
+          .col-3.col-md-2.rounded-20.py-3.px-0.bg-blanco.ml-3.w-100-px.mb-4
             p.text-azul.font-12.font-weight-bold Subject
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Sujeto
-          .col-1.align-self-center.w-37-px
+          .col-1.align-self-center.w-37-px.mb-3
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-3.rounded-20.py-3.px-0.bg-blanco.w-123-px
+          .col-3.col-md-3.rounded-20.py-3.px-0.bg-blanco.w-123-px.mb-4
             p.text-azul.font-12.font-weight-bold Auxiliary verb
             p.text-amarillo-fuerte.mt-1.font-12.font-weight-bold Verbo auxiliar
-          .col-1.align-self-center.w-37-px
+          .col-1.align-self-center.w-37-px.mb-3
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-3.rounded-20.py-3.px-0.bg-blanco.w-123-px
+          .col-3.col-md-3.rounded-20.py-3.px-0.bg-blanco.w-123-px.mb-4
             p.text-azul.font-12.font-weight-bold Negation
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Forma negativa
-          .col-1.align-self-center.w-37-px
+          .col-1.align-self-center.w-37-px.mb-3
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-2.rounded-20.py-3.px-1.bg-blanco.w-100-px
+          .col-2.col-md-2.rounded-20.py-3.px-1.bg-blanco.w-100-px.mb-4
             p.text-azul.font-12.font-weight-bold Verb
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Verbo
-          .col-1.align-self-center.w-37-px
+          .col-1.align-self-center.w-37-px.mb-3
             .h4.font-30.text-azul.text-amarillo-fuerte +
-          .col-4.rounded-20.py-3.px-0.bg-blanco.w-100-px
-            p.text-azul.font-10.font-weight-bold Complement
-            p.text-amarillo-fuerte.font-10.mt-1.font-weight-bold Complemento
-        .row
-          a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-amarillo.py-3(style="top:90%; left:43%").position-absolute.w-123-px(@click="modalH = true")
+          .col-4.col-md-4.rounded-20.py-3.px-0.bg-blanco.w-123-px.mb-md-4.mb-5
+            p.text-azul.font-12.font-weight-bold Complement
+            p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Complemento
+        .row.justify-content-center
+          a(@mouseover="mostrarIndicador = false").col-4.rounded-20.bg-amarillo.py-3(style="top:90%;").position-absolute.w-123-px(@click="modalH = true")
             .indicador--click(v-if="mostrarIndicador")
             p.text-white.font-12.font-weight-bold Example
             p.text-azul.font-12.mt-1.font-weight-bold Ejemplo
@@ -198,9 +198,9 @@
       .col-10.offset-1.pt-4.px-5.pb-3.mt-4.bg-amarillo.rounded-20.text-center.position-relative
         .h4.text-white.font-25.italic The simple present in third person // Presente simple en tercera persona
         p.mt-3.text-azul.font-weight-bold For the third person, an “s” must be added, considering the following observations:   
-        p.mt-1.text-white.font-weight-bold.pb-4 Para la tercera persona, se debe adicionar una “s”, teniendo en cuenta las siguientes observaciones: 
-        .row
-          a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-blanco.py-3(style="top:90%; left:43%").position-absolute.w-123-px.box-shadow(@click="modalA1 = true")
+        p.mt-1.text-white.font-weight-bold.pb-4.mb-md-0.mb-4 Para la tercera persona, se debe adicionar una “s”, teniendo en cuenta las siguientes observaciones: 
+        .row.justify-content-center
+          a(@mouseover="mostrarIndicador = false").col-3.rounded-20.bg-blanco.py-3(style="top:90%;").position-absolute.w-123-px.box-shadow(@click="modalA1 = true")
             .indicador--click(v-if="mostrarIndicador")
             p.font-12.font-weight-bold Example
             p.text-amarillo-fuerte.font-12.mt-1.font-weight-bold Ejemplo
@@ -370,7 +370,7 @@
     .row.mt-5
       .col-10.offset-1.fondo-img-1
         .row
-          .col-5.offset-5
+          .col-6.offset-5
             .row.exp
               .col-12.bg-blanco.position-relative.p-4.mt-5.expandable
                 figure.bandera-usa
@@ -402,7 +402,7 @@
                           figure.bandera-esp(style='width: 4%')
                             img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                           .h4.font-1em.font-weight-normal.pb-5 Para dar instrucciones 
-                  .text.p-lg-3.p-4.rounded-15.mt-5
+                  .text.p-lg-3.p-4.rounded-15
                     .row.mt-3.text-center.px-3
                       .col-12.bg-rosado-claro.position-relative.p-3.italic
                         figure.bandera-usa(style='width: 5%')
@@ -428,9 +428,9 @@
                           figure.bandera-esp(style='width: 4%')
                             img(src="@/assets/template/bandera-esp.png" alt="bandera de Estados Unidos")
                           .h4.font-1em.font-weight-normal Para informar sobre eventos programados presentes o futuros 
-                  .text.p-lg-3.p-4.rounded-15.mt-5.bg-rosado-claro
+                  .text.p-lg-3.p-4.rounded-15
                     .row.mt-3.text-center.px-3
-                      .col-12.position-relative.p-3.italic
+                      .col-12.position-relative.bg-rosado-claro.p-3.italic
                         figure.bandera-usa(style='width: 5%')
                           img(src="@/assets/template/bandera-usa.png" alt="bandera de Estados Unidos")
                         p.ml-4 The concert starts at 7.00 pm. The doors open at midday   
